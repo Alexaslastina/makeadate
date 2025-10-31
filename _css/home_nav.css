@@ -1,0 +1,61 @@
+
+main{
+background: white;
+color: slategrey;
+ }
+
+ main h1, h2{
+  font-family: 'Dancing Script', cursive;
+   }
+
+
+main .grid_page{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 0.5em;
+}
+
+
+ main .grid_page img{
+  width:100%;
+ 
+} 
+
+main .grid_page > div{
+  height: 310px;
+  background-size: cover;
+  background-position: center;
+  border:4px solid white;
+  border-radius: 16px;
+}
+
+  main .card > img {
+  border: 3px solid rgb(185, 179, 192);
+  cursor: pointer;
+  transition: 2000ms;
+}
+
+main .card > img:hover{
+
+  transform: scale(1.2,1.2) rotate(5deg);
+
+}
+
+  aside  > div{
+  height: 400px;
+}
+
+   
+
+@media screen and (max-width:992px){
+  main .grid_page{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:768px){
+  main .grid_page{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

@@ -1,0 +1,43 @@
+main {
+   padding-bottom: 60px;
+    background-color: #f1f1f1;
+   }
+   
+   main h2
+    {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+    
+    .Faq .box {
+        text-align: left;
+        border-left: 18px solid #f1f1f1;
+        background-color: #fff;
+     
+      }
+
+     main  button {
+     background: white;
+     border: none;
+     font-size: 1.2em;
+     color: slategrey;
+     
+      }
+
+      main p 
+      {
+          display: none;
+          color: rgb(68, 67, 67);
+      }
+
+      @media (min-width: 600px) {
+        .Faq .d-flex {
+          display: flex;
+          justify-content: space-between;
+        }
+      
+        .box.col-md-6 {
+          width: 47%;
+          max-width: 47%;
+        }
+      }
