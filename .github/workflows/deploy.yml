@@ -15,9 +15,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build Frontend
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
       - name: Checkout
@@ -29,66 +31,19 @@ jobs:
           node-version: 20
           cache: npm
       
-      - name: Install dependencies
-        run: npm ci
-      
-      - name: Build for Production
-        run: npx nx build frontend --configuration=production
-        env:
-          NODE_ENV: production
-      
-      - name: Build Size Analysis
+      - name: Install and Build
         run: |
-          echo "📦 Build Size Report"
-          echo "===================="
-          du -sh dist/frontend
-          echo ""
-          echo "Largest files:"
-          find dist/frontend -type f -exec du -h {} + | sort -rh | head -10
-      
-      - name: Verify Build Output
-        run: |
-          if [ ! -f "dist/frontend/index.html" ]; then
-            echo "❌ index.html not found!"
-            exit 1
-          fi
-          echo "✅ Build verified successfully"
-      
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-build
-          path: dist/frontend
-          retention-days: 7
-
-  deploy:
-    name: Deploy to Pages
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
-    steps:
-      - name: Download Build Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: frontend-build
-          path: dist/frontend
+          npm ci
+          npx nx build frontend --configuration=production
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Upload to Pages
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist/frontend
       
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-      
-      - name: Deployment Success
-        run: |
-          echo "🚀 Deployment successful!"
-          echo "📍 URL: ${{ steps.deployment.outputs.page_url }}"
