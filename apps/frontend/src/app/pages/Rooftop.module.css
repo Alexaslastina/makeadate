@@ -1,0 +1,49 @@
+.rooftopMain {
+  background: rgb(183, 231, 233);
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.rooftopMain h1,
+.rooftopMain h2 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: slategrey;
+}
+
+.rooftopMain p {
+  font-size: x-large;
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin-bottom: 2rem;
+}
+
+.gridGallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.contentBox {
+  border: 4px solid darkgrey;
+  padding: 2rem;
+  background: white;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .gridGallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .rooftopMain p {
+    font-size: large;
+  }
+}
+

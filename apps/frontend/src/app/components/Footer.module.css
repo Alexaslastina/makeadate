@@ -1,0 +1,46 @@
+footer {
+  height: 150px;
+  background: rgb(252, 247, 247);
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footerContent a {
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+.footerContent i {
+  transform: scale(2, 2);
+}
+
+.instagram {
+  color: rgb(206, 38, 130);
+}
+
+.facebook {
+  color: rgb(59, 89, 152);
+}
+
+.youtube {
+  color: rgb(247, 21, 59);
+}
+
+.telegram {
+  color: rgb(0, 136, 204);
+}
+
+@media screen and (max-width: 768px) {
+  .footerContent a {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+

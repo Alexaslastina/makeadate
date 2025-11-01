@@ -1,0 +1,41 @@
+.aboutMain {
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(255, 248, 234);
+}
+
+.aboutMain h1,
+.aboutMain h2 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.aboutMain h5 {
+  text-align: center;
+}
+
+.founderImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.teamCard {
+  margin-bottom: 1rem;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+.teamCard img {
+  animation: pulsing 10s infinite;
+}
+

@@ -1,0 +1,15 @@
+.mobileImage {
+  min-height: 300px;
+  width: 100%;
+}
+
+.carouselContainer {
+  min-height: 300px;
+}
+
+.carouselCaption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+

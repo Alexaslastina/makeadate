@@ -1,0 +1,74 @@
+.galleryMain {
+  background-image: url('../../assets/images/pic81.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.gridGallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border: 4px solid white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gridGallery img:hover {
+  transform: scale(1.05);
+}
+
+.videoContainer {
+  margin: 2rem 0;
+}
+
+.videoContainer iframe {
+  max-width: 100%;
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 992px) {
+  .gridGallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gridGallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .videoContainer iframe {
+    width: 100%;
+  }
+
+  .glow {
+    font-size: 40px;
+  }
+}
+

@@ -1,0 +1,16 @@
+.faqMain {
+  padding-bottom: 60px;
+  background-color: #f1f1f1;
+  min-height: 100vh;
+}
+
+.faqMain h2 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.faqContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

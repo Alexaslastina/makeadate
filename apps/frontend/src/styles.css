@@ -1,0 +1,41 @@
+/* Global styles and imports */
+
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Import Font Awesome */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@463&display=swap');
+
+/* Global body styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global container styles */
+.container-fluid {
+  width: 100%;
+  padding: 0;
+}
+
+/* Home page specific styles */
+.carousell {
+  margin-bottom: 2rem;
+}
+
+.grid_page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .grid_page {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

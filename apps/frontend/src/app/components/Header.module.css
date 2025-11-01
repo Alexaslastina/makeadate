@@ -1,0 +1,97 @@
+header {
+  background-image: url('../../assets/images/pic69.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  min-height: 120px;
+  color: rgb(207, 203, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  padding: 0 24px;
+  font-size: 1.2em;
+  color: grey;
+  text-decoration: none;
+}
+
+.nav img {
+  margin-left: 20px;
+}
+
+.burger {
+  cursor: pointer;
+  text-align: right;
+  padding: 1rem 0;
+}
+
+.burger i {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    position: relative;
+  }
+
+  .nav {
+    position: absolute;
+    width: 100%;
+    background: white;
+    right: 0;
+    top: 100%;
+    padding: 12px;
+    z-index: 99999;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 800ms ease, visibility 800ms ease;
+  }
+
+  .nav.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav a {
+    display: block;
+    padding: 12px;
+    text-decoration-line: none;
+    position: relative;
+  }
+
+  .nav a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: rgb(226, 226, 229);
+    transition: 800ms;
+    margin: 0;
+  }
+
+  .nav a:hover::before {
+    width: 100%;
+    background: grey;
+  }
+
+  .nav a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: rgb(226, 226, 229);
+    transition: 800ms;
+    margin: 0 auto;
+  }
+
+  .nav a:hover::after {
+    width: 100%;
+    background: grey;
+  }
+}
+
