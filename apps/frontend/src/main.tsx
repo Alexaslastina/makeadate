@@ -7,8 +7,9 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-// Use /makeadate/ basename for production (GitHub Pages)
-const basename = import.meta.env.PROD ? '/makeadate' : '/';
+// Use the base path from Vite's configuration
+// This will be '/' for local development and '/makeadate/' for GitHub Pages
+const basename = import.meta.env.BASE_URL;
 
 root.render(
   <StrictMode>
