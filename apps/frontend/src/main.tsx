@@ -7,9 +7,12 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
+// Use /makeadate/ basename for production (GitHub Pages)
+const basename = import.meta.env.PROD ? '/makeadate' : '/';
+
 root.render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <App/>
     </BrowserRouter>
   </StrictMode>
