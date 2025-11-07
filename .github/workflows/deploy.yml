@@ -73,11 +73,13 @@ jobs:
           find dist -name "*.jpg" -o -name "*.png" -o -name "*.svg" -o -name "*.jpeg" | xargs du -ch 2>/dev/null | tail -1 || echo "No images"
       
       - name: 📦 Upload artifact
+        if: github.actor != 'nektos/act'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/frontend
       
       - name: 💾 Upload build for verification
+        if: github.actor != 'nektos/act'
         uses: actions/upload-artifact@v4
         with:
           name: production-build
@@ -86,6 +88,7 @@ jobs:
 
   deploy:
     name: 🚀 Deploy to Pages
+    if: github.actor != 'nektos/act'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
