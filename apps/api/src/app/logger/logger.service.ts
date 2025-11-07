@@ -1,4 +1,4 @@
-import { Injectable, LoggerService, Scope } from '@nestjs/common';
+import { Injectable, LoggerService } from '@nestjs/common';
 
 export enum LogLevel {
   ERROR = 0,
@@ -17,7 +17,7 @@ interface LogContext {
   metadata?: Record<string, any>;
 }
 
-@Injectable({ scope: Scope.TRANSIENT })
+@Injectable()
 export class AppLoggerService implements LoggerService {
   private context?: string;
   private readonly logLevel: LogLevel;
