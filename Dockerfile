@@ -16,7 +16,6 @@ RUN npm ci --legacy-peer-deps
 
 # Copy workspace files
 COPY apps/api ./apps/api
-COPY apps/api/tsconfig*.json ./apps/api/
 
 # Build the API application
 RUN npx nx build api --prod
@@ -36,7 +35,6 @@ RUN npm ci --legacy-peer-deps --omit=dev && \
 
 # Copy built application from builder stage
 COPY --from=builder /app/dist/api ./dist/api
-COPY --from=builder /app/apps/api/project.json ./apps/api/project.json
 
 # Create a non-root user for security
 RUN addgroup -g 1001 -S nodejs && \
