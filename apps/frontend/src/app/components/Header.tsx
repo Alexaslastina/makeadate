@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useBurgerMenu } from '../hooks/useBurgerMenu';
 import { getCurrentUser, logout, User } from '../services/authApi';
@@ -8,6 +8,7 @@ import logo from '../../assets/images/pic5.png';
 
 export function Header() {
   const { isOpen, toggle } = useBurgerMenu();
+  const navigate = useNavigate();
   const [user, setUser] = useState<User | null>(null);
   const [favoritesCount, setFavoritesCount] = useState(0);
 
@@ -67,7 +68,7 @@ export function Header() {
     logout();
     setUser(null);
     window.dispatchEvent(new Event('userLoggedOut'));
-    window.location.href = '/';
+    navigate('/');
   };
 
   return (
