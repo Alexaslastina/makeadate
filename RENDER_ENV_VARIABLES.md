@@ -307,14 +307,14 @@ After deployment, update your frontend to use the Render API URL:
 const API_URL = 'http://localhost:3001/api';
 
 // After (production)
-const API_URL = import.meta.env.VITE_API_URL || 'https://makeadate-api.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://makeadate.onrender.com/api';
 ```
 
 Then add to your GitHub Actions deploy workflow:
 
 ```yaml
 env:
-  VITE_API_URL: https://makeadate-api.onrender.com/api
+  VITE_API_BASE_URL: https://makeadate.onrender.com/api
 ```
 
 ---

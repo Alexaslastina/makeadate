@@ -65,7 +65,7 @@ services:
   #   networks:
   #     - makeadate-network
   #   environment:
-  #     VITE_API_URL: http://api:3001
+  #     VITE_API_BASE_URL: http://api:3001/api
 
 volumes:
   mongodb_data:

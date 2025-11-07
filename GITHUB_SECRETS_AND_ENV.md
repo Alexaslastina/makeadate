@@ -167,7 +167,7 @@ The frontend uses Vite's environment variable system (prefixed with `VITE_`).
 | Variable | Default | Description | Required | Used In |
 |----------|---------|-------------|----------|---------|
 | `VITE_BASE_PATH` | `/` | Base path for application routing | No | `vite.config.ts` |
-| `VITE_API_URL` | `http://localhost:3001/api` | Backend API endpoint URL | No | API service files |
+| `VITE_API_BASE_URL` | `http://localhost:3001/api` | Backend API endpoint URL | No | API service files |
 
 ### Configuration
 
@@ -188,7 +188,7 @@ env:
 const baseUrl = import.meta.env.BASE_URL;
 
 // Access custom Vite vars
-const apiUrl = import.meta.env.VITE_API_URL;
+const apiUrl = import.meta.env.VITE_API_BASE_URL;
 ```
 
 ### Build-Time vs Runtime
@@ -203,8 +203,12 @@ const apiUrl = import.meta.env.VITE_API_URL;
 
 **Recommended for Production:**
 ```typescript
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
 ```
+
+**Production API URL (Render.com):**
+- API URL: `https://makeadate.onrender.com/api`
+- This is configured in `.github/workflows/deploy.yml`
 
 ---
 
@@ -545,7 +549,9 @@ Solution: Check MONGO_URI format and MongoDB is running
 
 **Issue: Frontend can't reach API**
 ```
-Solution: Verify VITE_API_URL matches your API server
+Solution: Verify VITE_API_BASE_URL matches your API server
+Production API: https://makeadate.onrender.com/api
+Local API: http://localhost:3001/api
 ```
 
 **Issue: Assets not loading on GitHub Pages**
