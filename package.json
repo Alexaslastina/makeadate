@@ -8,7 +8,12 @@
     "start:frontend": "npx nx serve frontend",
     "start:api": "npx nx serve api",
     "test:mongodb": "node test-mongodb-connection.js",
-    "create:admin": "node create-admin.js"
+    "create:admin": "node create-admin.js",
+    "docker:build": "docker build -t makeadate-api -f apps/api/Dockerfile .",
+    "docker:run": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:clean": "docker-compose down -v"
   },
   "repository": {
     "type": "git",
