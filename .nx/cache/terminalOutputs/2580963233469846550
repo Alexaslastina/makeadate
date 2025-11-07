@@ -1,0 +1,959 @@
+[2J[3J[H4:38:20 AM - Starting compilation in watch mode...
+
+
+4:38:27 AM - Found 0 errors. Watching for file changes.
+Debugger listening on ws://localhost:9229/d0ecdd84-e194-4217-8af0-6fc3dd3e950b
+For help, see: https://nodejs.org/en/docs/inspector
+
+[Nest] 8114  - 11/07/2025, 4:38:28 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 8114  - 11/07/2025, 4:38:28 AM     LOG [InstanceLoader] AppModule dependencies initialized +37ms
+[Nest] 8114  - 11/07/2025, 4:38:28 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:28 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +1ms
+[Nest] 8114  - 11/07/2025, 4:38:28 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +2195ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] UsersModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RoutesResolver] DatesController {/api/dates}: +22ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +7ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +2ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +1ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +0ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG [NestApplication] Nest application successfully started +6ms
+[Nest] 8114  - 11/07/2025, 4:38:31 AM     LOG 🚀 Application is running on: http://localhost:3001/api
+[2J[3J[H4:45:16 AM - File change detected. Starting incremental compilation...
+
+
+4:45:21 AM - Found 0 errors. Watching for file changes.
+[2J[3J[H4:45:21 AM - File change detected. Starting incremental compilation...
+
+
+4:45:26 AM - Found 0 errors. Watching for file changes.
+Debugger listening on ws://localhost:9229/f7770992-8137-42f8-bf3a-7469c1db142e
+For help, see: https://nodejs.org/en/docs/inspector
+
+[2J[3J[H4:45:27 AM - File change detected. Starting incremental compilation...
+
+
+4:45:27 AM - Found 0 errors. Watching for file changes.
+Debugger listening on ws://localhost:9229/7941536c-5eb1-47a1-bdea-965c1b67de5c
+For help, see: https://nodejs.org/en/docs/inspector
+
+Debugger listening on ws://localhost:9229/df235cbd-e9b8-4d8a-98f6-b9b118ee10b3
+For help, see: https://nodejs.org/en/docs/inspector
+
+[Nest] 9200  - 11/07/2025, 4:45:29 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 9200  - 11/07/2025, 4:45:29 AM     LOG [InstanceLoader] AppModule dependencies initialized +62ms
+[Nest] 9200  - 11/07/2025, 4:45:29 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 9200  - 11/07/2025, 4:45:29 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:29 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +1404ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +2ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +2ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] UsersModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [InstanceLoader] DatesModule dependencies initialized +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RoutesResolver] DatesController {/api/dates}: +18ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +4ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +1ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +0ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM     LOG [NestApplication] Nest application successfully started +4ms
+[Nest] 9200  - 11/07/2025, 4:45:31 AM   ERROR [NestApplication] Error: listen EADDRINUSE: address already in use :::3001 +2ms
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)
+
+
+ NX  Process exited with code 1, waiting for changes to restart...
+
+[2J[3J[H4:50:30 AM - File change detected. Starting incremental compilation...
+
+
+4:50:33 AM - Found 0 errors. Watching for file changes.
+Starting inspector on localhost:9229 failed: address already in use
+
+[Nest] 9634  - 11/07/2025, 4:50:35 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 9634  - 11/07/2025, 4:50:36 AM     LOG [InstanceLoader] AppModule dependencies initialized +33ms
+[Nest] 9634  - 11/07/2025, 4:50:36 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 9634  - 11/07/2025, 4:50:36 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:36 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +1683ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +3ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +4ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] UsersModule dependencies initialized +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] FavoritesModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RoutesResolver] DatesController {/api/dates}: +25ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +8ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +2ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +2ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RoutesResolver] FavoritesController {/api/favorites}: +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, POST} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, DELETE} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/favorites, GET} route +0ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [RouterExplorer] Mapped {/api/favorites/check/:dateId, GET} route +1ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM     LOG [NestApplication] Nest application successfully started +5ms
+[Nest] 9634  - 11/07/2025, 4:50:37 AM   ERROR [NestApplication] Error: listen EADDRINUSE: address already in use :::3001 +3ms
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)
+
+
+ NX  Process exited with code 1, waiting for changes to restart...
+
+[2J[3J[H5:44:13 AM - File change detected. Starting incremental compilation...
+
+
+5:44:21 AM - Found 0 errors. Watching for file changes.
+[2J[3J[H5:44:21 AM - File change detected. Starting incremental compilation...
+
+
+5:44:23 AM - Found 0 errors. Watching for file changes.
+Starting inspector on localhost:9229 failed: address already in use
+
+[2J[3J[H5:44:23 AM - File change detected. Starting incremental compilation...
+
+
+5:44:27 AM - Found 0 errors. Watching for file changes.
+Starting inspector on localhost:9229 failed: address already in use
+
+Starting inspector on localhost:9229 failed: address already in use
+
+[Nest] 12788  - 11/07/2025, 5:44:28 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 12788  - 11/07/2025, 5:44:28 AM     LOG [InstanceLoader] AppModule dependencies initialized +41ms
+[Nest] 12788  - 11/07/2025, 5:44:28 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 12788  - 11/07/2025, 5:44:28 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:28 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +1861ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] UsersModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] FavoritesModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RoutesResolver] DatesController {/api/dates}: +22ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +3ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +3ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/users/:id/role, PATCH} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RoutesResolver] AuthController {/api/auth}: +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RoutesResolver] FavoritesController {/api/favorites}: +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, POST} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, DELETE} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/favorites, GET} route +1ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [RouterExplorer] Mapped {/api/favorites/check/:dateId, GET} route +0ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM     LOG [NestApplication] Nest application successfully started +6ms
+[Nest] 12788  - 11/07/2025, 5:44:30 AM   ERROR [NestApplication] Error: listen EADDRINUSE: address already in use :::3001 +3ms
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)
+
+
+ NX  Process exited with code 1, waiting for changes to restart...
+
+[2J[3J[H6:09:46 AM - File change detected. Starting incremental compilation...
+
+
+6:09:46 AM - Found 0 errors. Watching for file changes.
+Debugger listening on ws://localhost:9229/8af891dc-6ce0-4a41-93a0-9b89d8797320
+For help, see: https://nodejs.org/en/docs/inspector
+
+[Nest] 14796  - 11/07/2025, 6:09:48 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 14796  - 11/07/2025, 6:09:49 AM     LOG [InstanceLoader] AppModule dependencies initialized +40ms
+[Nest] 14796  - 11/07/2025, 6:09:49 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:49 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:49 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +1937ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] UsersModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] AuthModule dependencies initialized +1ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] FavoritesModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:50 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RoutesResolver] DatesController {/api/dates}: +50ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +3ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +0ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +0ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RoutesResolver] UsersController {/api/users}: +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/users/:id/role, PATCH} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RoutesResolver] FavoritesController {/api/favorites}: +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, POST} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, DELETE} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/favorites, GET} route +1ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [RouterExplorer] Mapped {/api/favorites/check/:dateId, GET} route +2ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM     LOG [NestApplication] Nest application successfully started +13ms
+[Nest] 14796  - 11/07/2025, 6:09:51 AM   ERROR [NestApplication] Error: listen EADDRINUSE: address already in use 0.0.0.0:3001 +6ms
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ NX  Process exited with code 1, waiting for changes to restart...
+
+[2J[3J[H6:33:20 AM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/dates/dates.service.ts(40,36): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/dates/dates.service.ts(60,45): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/dates/dates.service.ts(66,63): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(17,42): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/reviews/reviews.service.ts(27,46): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/reviews/reviews.service.ts(48,34): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/reviews/reviews.service.ts(49,47): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/reviews/reviews.service.ts(60,42): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/reviews/reviews.service.ts(68,52): error TS2554: Expected 0 arguments, but got 1.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+
+6:33:29 AM - Found 14 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:33:42 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/main.ts(2,29): error TS2307: Cannot find module '@nestjs/core' or its corresponding type declarations.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:33:42 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:33:44 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.module.ts(1,24): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS2307: Cannot find module '@nestjs/common' or its corresponding type declarations.
+apps/api/src/main.ts(2,29): error TS2307: Cannot find module '@nestjs/core' or its corresponding type declarations.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:33:44 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:34:06 AM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+
+6:34:10 AM - Found 35 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:34:18 AM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+
+6:34:18 AM - Found 35 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:34:30 AM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+
+6:34:30 AM - Found 37 errors. Watching for file changes.
+[2J[3J[H6:34:31 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:34:31 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+Build failed, waiting for changes to restart...
+[2J[3J[H6:34:35 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:34:35 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:44:24 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:44:24 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:44:47 AM - File change detected. Starting incremental compilation...
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+apps/api/src/app/app.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/app.module.ts(2,30): error TS2307: Cannot find module '@nestjs/config' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(3,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/app.module.ts(14,28): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.controller.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(1,91): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/auth/auth.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(5,25): error TS2307: Cannot find module 'crypto' or its corresponding type declarations.
+apps/api/src/app/auth/auth.service.ts(39,26): error TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/auth.service.ts(83,18): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/auth/schemas/password-reset-token.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.controller.ts(1,52): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/dates/dates.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/dates.service.ts(27,24): error TS7006: Parameter 'date' implicitly has an 'any' type.
+apps/api/src/app/dates/dto/create-date.dto.ts(1,73): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/dates/schemas/date.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.controller.ts(1,74): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/favorites/favorites.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/favorites.service.ts(64,27): error TS7006: Parameter 'f' implicitly has an 'any' type.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/favorites/schemas/favorite.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/create-review.dto.ts(1,77): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/dto/list-reviews.dto.ts(1,40): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(1,28): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/reviews/reviews.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/reviews.service.ts(3,30): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/reviews/schemas/review.schema.ts(2,41): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/dto/create-user.dto.ts(1,58): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/dto/update-user-role.dto.ts(1,32): error TS2307: Cannot find module 'class-validator' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(1,45): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/schemas/user.schema.ts(2,34): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.controller.ts(1,67): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(1,24): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.module.ts(2,32): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(1,66): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/app/users/users.service.ts(2,29): error TS2307: Cannot find module '@nestjs/mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(3,23): error TS2307: Cannot find module 'mongoose' or its corresponding type declarations.
+apps/api/src/app/users/users.service.ts(4,25): error TS2307: Cannot find module 'bcrypt' or its corresponding type declarations.
+apps/api/src/main.ts(1,40): error TS7016: Could not find a declaration file for module '@nestjs/common'. '/home/Projects/makeadate/node_modules/@nestjs/common/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(2,29): error TS7016: Could not find a declaration file for module '@nestjs/core'. '/home/Projects/makeadate/node_modules/@nestjs/core/index.js' implicitly has an 'any' type.
+apps/api/src/main.ts(13,16): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+apps/api/src/main.ts(13,42): error TS2591: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+6:44:47 AM - Found 61 errors. Watching for file changes.
+Build failed, waiting for changes to restart...
+[2J[3J[H6:44:56 AM - File change detected. Starting incremental compilation...
+
+
+6:45:03 AM - Found 0 errors. Watching for file changes.
+Starting inspector on localhost:9229 failed: address already in use
+
+[2J[3J[H6:45:06 AM - File change detected. Starting incremental compilation...
+
+
+6:45:09 AM - Found 0 errors. Watching for file changes.
+[Nest] 18467  - 11/07/2025, 6:45:06 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 18467  - 11/07/2025, 6:45:06 AM     LOG [InstanceLoader] AppModule dependencies initialized +83ms
+[Nest] 18467  - 11/07/2025, 6:45:06 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:06 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:06 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +2343ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] UsersModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] FavoritesModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RoutesResolver] DatesController {/api/dates}: +36ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +10ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +3ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +2ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +2ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +2ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +3ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +2ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +2ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/users/:id/role, PATCH} route +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RoutesResolver] FavoritesController {/api/favorites}: +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, POST} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, DELETE} route +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/favorites, GET} route +1ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [RouterExplorer] Mapped {/api/favorites/check/:dateId, GET} route +0ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG [NestApplication] Nest application successfully started +10ms
+[Nest] 18467  - 11/07/2025, 6:45:08 AM     LOG 🚀 Application is running on: http://0.0.0.0:3001/api
+Debugger listening on ws://localhost:9229/3821da74-6dcc-4564-9927-ba15583466de
+For help, see: https://nodejs.org/en/docs/inspector
+
+[Nest] 18518  - 11/07/2025, 6:45:11 AM     LOG [NestFactory] Starting Nest application...
+[Nest] 18518  - 11/07/2025, 6:45:11 AM     LOG [InstanceLoader] AppModule dependencies initialized +52ms
+[Nest] 18518  - 11/07/2025, 6:45:11 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:11 AM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:11 AM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseCoreModule dependencies initialized +1314ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] MongooseModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] ReviewsModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] UsersModule dependencies initialized +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] FavoritesModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [InstanceLoader] DatesModule dependencies initialized +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RoutesResolver] DatesController {/api/dates}: +9ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates, GET} route +3ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/:id, GET} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/seed, POST} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RoutesResolver] ReviewsController {/api/dates/:dateId/reviews}: +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews, GET} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/summary, GET} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RoutesResolver] UsersController {/api/users}: +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/users, GET} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/users, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/users/:email, GET} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/users/:id/role, PATCH} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/users/:id, DELETE} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RoutesResolver] FavoritesController {/api/favorites}: +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, POST} route +1ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/favorites/:dateId, DELETE} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/favorites, GET} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [RouterExplorer] Mapped {/api/favorites/check/:dateId, GET} route +0ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG [NestApplication] Nest application successfully started +3ms
+[Nest] 18518  - 11/07/2025, 6:45:12 AM     LOG 🚀 Application is running on: http://0.0.0.0:3001/api
+Watch error: Daemon closed the connection

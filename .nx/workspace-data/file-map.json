@@ -1,0 +1,1200 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.0.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "devTargetName": "dev",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "START_FRONTEND.md",
+        "hash": "8015577711400291551"
+      },
+      {
+        "file": "HOW_TO_CHANGE_IMAGES.md",
+        "hash": "2840714425518595896"
+      },
+      {
+        "file": "START_FRONTEND_FIXED.md",
+        "hash": "1780030680717850884"
+      },
+      {
+        "file": "get-network-info.sh",
+        "hash": "10915934185413360195"
+      },
+      {
+        "file": ".github/WORKFLOWS.md",
+        "hash": "9567771529052979529"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "MOBILE_ACCESS.md",
+        "hash": "6419677712553135092"
+      },
+      {
+        "file": "GITHUB_ACTIONS_SUMMARY.md",
+        "hash": "12177265166230186768"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3353318379519284255"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".github/CICD.md",
+        "hash": "880158851762232682"
+      },
+      {
+        "file": "create-admin.sh",
+        "hash": "13414965522279339207"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "DEPLOYMENT_INSTRUCTIONS.md",
+        "hash": "16719541647724748247"
+      },
+      {
+        "file": "README.md",
+        "hash": "1142627857620955524"
+      },
+      {
+        "file": "BASEHREF_FIX_SUMMARY.md",
+        "hash": "12294788799546170441"
+      },
+      {
+        "file": ".github/workflows/deploy.yml",
+        "hash": "11120301025975723555"
+      },
+      {
+        "file": "BASE_HREF_CONFIGURATION.md",
+        "hash": "1494347523164315584"
+      },
+      {
+        "file": "RESTART_API.md",
+        "hash": "17820708173161051003"
+      },
+      {
+        "file": ".env.example",
+        "hash": "5018921629862050514"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11731597429232446834"
+      },
+      {
+        "file": "package.json",
+        "hash": "10261959793704471407"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "18009378322024088965"
+      },
+      {
+        "file": "create-admin.js",
+        "hash": "7503466822319369035"
+      },
+      {
+        "file": "API_SETUP.md",
+        "hash": "12040632669372435490"
+      },
+      {
+        "file": "ADMIN_SETUP.md",
+        "hash": "15101977353692942650"
+      },
+      {
+        "file": "PROJECT_CLEANUP_SUMMARY.md",
+        "hash": "2361194116636857128"
+      },
+      {
+        "file": "MIGRATION_PLAN.md",
+        "hash": "9551108513860492348"
+      },
+      {
+        "file": "restart-api.sh",
+        "hash": "18043025145705447993"
+      },
+      {
+        "file": "TEST_RESULTS.md",
+        "hash": "12586920669326150125"
+      },
+      {
+        "file": ".github/QUICK_START.md",
+        "hash": "16124839275222964524"
+      },
+      {
+        "file": "QUICK_START_API.md",
+        "hash": "15870333385091280125"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "527502912081358787"
+      },
+      {
+        "file": "START_API.md",
+        "hash": "10414784767561680702"
+      }
+    ],
+    "projectFileMap": {
+      "frontend": [
+        {
+          "file": "apps/frontend/index.html",
+          "hash": "6725241307748320030"
+        },
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "1581687993160957088"
+        },
+        {
+          "file": "apps/frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/frontend/src/app/app.tsx",
+          "hash": "14772410367298390265",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/DateCard.module.css",
+          "hash": "11235688212830426935"
+        },
+        {
+          "file": "apps/frontend/src/app/components/DateCard.tsx",
+          "hash": "7723654860243691011",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/FavoriteButton.module.css",
+          "hash": "2345993565067952443"
+        },
+        {
+          "file": "apps/frontend/src/app/components/FavoriteButton.tsx",
+          "hash": "9015515126955453342",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/Footer.module.css",
+          "hash": "2851577512696524956"
+        },
+        {
+          "file": "apps/frontend/src/app/components/Footer.tsx",
+          "hash": "4965455151625532095",
+          "deps": [
+            "npm:@fortawesome/react-fontawesome",
+            "npm:@fortawesome/free-brands-svg-icons"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/Header.module.css",
+          "hash": "1811565153422974098"
+        },
+        {
+          "file": "apps/frontend/src/app/components/Header.tsx",
+          "hash": "13428586998847824643",
+          "deps": [
+            "npm:react-router-dom",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/ProtectedAdminRoute.tsx",
+          "hash": "6739566595381108239",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewForm.module.css",
+          "hash": "5077853214003505397"
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewForm.tsx",
+          "hash": "10331702724279599945",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewItem.module.css",
+          "hash": "460412016566256653"
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewItem.tsx",
+          "hash": "16227691028004126851"
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewList.module.css",
+          "hash": "3697118376413362667"
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewList.tsx",
+          "hash": "131950441608347202",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewsSection.module.css",
+          "hash": "10565473645273133300"
+        },
+        {
+          "file": "apps/frontend/src/app/components/ReviewsSection.tsx",
+          "hash": "17714663789493076770",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/components/TipCard.tsx",
+          "hash": "15922603718709499036",
+          "deps": [
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/hooks/useBurgerMenu.ts",
+          "hash": "8412508839918466736",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/hooks/useDateId.ts",
+          "hash": "3577285743868794657",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/About.module.css",
+          "hash": "7757470682216522221"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/About.tsx",
+          "hash": "10641022221570207987",
+          "deps": [
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Admin.module.css",
+          "hash": "16715042622994614764"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Admin.tsx",
+          "hash": "10982395405491603846",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Amusement.module.css",
+          "hash": "4183969661166662721"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Amusement.tsx",
+          "hash": "18126512486097554786",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Contact.module.css",
+          "hash": "3088360176629952664"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Contact.tsx",
+          "hash": "8894153055306640125",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/DateDetail.module.css",
+          "hash": "15792866306215332610"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/DateDetail.tsx",
+          "hash": "5617074679604269069",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/FAQ.module.css",
+          "hash": "15450127916997628729"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/FAQ.tsx",
+          "hash": "9536152531300351678",
+          "deps": [
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Favorites.module.css",
+          "hash": "14641653011548701435"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Favorites.tsx",
+          "hash": "16535603046612863804",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/ForgotPassword.module.css",
+          "hash": "881878708110282235"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/ForgotPassword.tsx",
+          "hash": "2076492941389437562",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Gallery.module.css",
+          "hash": "7431908885015558620"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Gallery.tsx",
+          "hash": "16215395849855566235",
+          "deps": [
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Home.module.css",
+          "hash": "8213363461082500172"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Home.tsx",
+          "hash": "374579504665770958",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Login.module.css",
+          "hash": "12045414121444943385"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Login.tsx",
+          "hash": "17832393801668339185",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Profile.module.css",
+          "hash": "5165622095741215815"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Profile.tsx",
+          "hash": "12587464530044690337",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Register.module.css",
+          "hash": "15801732657636564215"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Register.tsx",
+          "hash": "9294097766420569096",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/ResetPassword.module.css",
+          "hash": "3665887128369620572"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/ResetPassword.tsx",
+          "hash": "3833314059952088274",
+          "deps": [
+            "npm:react",
+            "npm:react-bootstrap",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Rooftop.module.css",
+          "hash": "6132620710855317597"
+        },
+        {
+          "file": "apps/frontend/src/app/pages/Rooftop.tsx",
+          "hash": "12943051496996326062",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-bootstrap"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/app/services/authApi.ts",
+          "hash": "8584653255543326304"
+        },
+        {
+          "file": "apps/frontend/src/app/services/datesApi.ts",
+          "hash": "5752229520545614393"
+        },
+        {
+          "file": "apps/frontend/src/app/services/favoritesApi.ts",
+          "hash": "11912122443539310190"
+        },
+        {
+          "file": "apps/frontend/src/app/services/reviewsApi.ts",
+          "hash": "17584962869057628923"
+        },
+        {
+          "file": "apps/frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/kupi.gif",
+          "hash": "7845053534493315083"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/kupi2.txt",
+          "hash": "18121727414668845440"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/me.jpg",
+          "hash": "12526349854494136553"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic1.gif",
+          "hash": "13240634158066859713"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic1.jpeg",
+          "hash": "1995800403541759087"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic10.jpeg",
+          "hash": "15214743672003821871"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic1000.jpeg",
+          "hash": "14453973753263403176"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic1001.jpeg",
+          "hash": "10804329248771785329"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic11.jpeg",
+          "hash": "6531814386156658640"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic12.jpeg",
+          "hash": "12052484865825451634"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic13.jpeg",
+          "hash": "4275559448571251199"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic14.jpeg",
+          "hash": "8254177337042195179"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic15.jpeg",
+          "hash": "6396192591565090119"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic16.jpeg",
+          "hash": "17680760765914104326"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic17.jpeg",
+          "hash": "311778717617504993"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic18.jpeg",
+          "hash": "104320602973068996"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic19.jpeg",
+          "hash": "5275484009619498109"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic2.jpeg",
+          "hash": "8628317263766786257"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic20.jpeg",
+          "hash": "5849619556998157919"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic21.jpeg",
+          "hash": "12264466485413702977"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic22.jpeg",
+          "hash": "3767370473548587592"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic23.jpeg",
+          "hash": "18381450976452443182"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic24.jpeg",
+          "hash": "2138389717851906249"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic25.png",
+          "hash": "14948099621615832771"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic26.jpeg",
+          "hash": "18162533428311034035"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic27.jpeg",
+          "hash": "10721055249714836984"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic28.jpeg",
+          "hash": "3819172958196684221"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic29.jpeg",
+          "hash": "5158063561655872749"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic3.jpeg",
+          "hash": "3115822433361365378"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic30.jpeg",
+          "hash": "14802116945751711131"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic31.jpeg",
+          "hash": "13003061943653138347"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic32.jpeg",
+          "hash": "11746849942491303919"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic33.jpeg",
+          "hash": "9485152598084623223"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic34.jpeg",
+          "hash": "6426583042175505861"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic35.jpeg",
+          "hash": "6117448313229545162"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic36.jpeg",
+          "hash": "12230230016464907688"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic37.jpeg",
+          "hash": "1562923495695089081"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic38.jpeg",
+          "hash": "18367418138083007868"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic39.jpeg",
+          "hash": "6911888995495411561"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic4.jpeg",
+          "hash": "17628980546039264391"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic40.png",
+          "hash": "4284713760745894993"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic41.jpeg",
+          "hash": "17017486440875299956"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic42.jpeg",
+          "hash": "1062253702136245187"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic43.jpeg",
+          "hash": "13774922704739613452"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic44.jpeg",
+          "hash": "6196154600005698644"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic45.jpeg",
+          "hash": "16506224802877928814"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic45.png",
+          "hash": "12398033482124344643"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic46.jpeg",
+          "hash": "4021741225868779738"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic47.jpeg",
+          "hash": "9992342696782350010"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic48.png",
+          "hash": "15118051182341396788"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic49.jpeg",
+          "hash": "2582062085769131165"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic5.jpeg",
+          "hash": "11662344100121058638"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic5.png",
+          "hash": "9563922069934232338"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic50.jpeg",
+          "hash": "2432293168026384048"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic51.jpeg",
+          "hash": "13595046026968553960"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic51.jpg",
+          "hash": "17567769777637905876"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic52..jpeg",
+          "hash": "4121821551028801364"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic52.jpg",
+          "hash": "18123393929412602431"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic53.jpeg",
+          "hash": "16705983417031823117"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic54.jpeg",
+          "hash": "14103076487519325409"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic55.jpeg",
+          "hash": "9372159785092004495"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic56.jpeg",
+          "hash": "14614027552953449090"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic57.jpeg",
+          "hash": "16278141979373738431"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic58.jpeg",
+          "hash": "2313021356879821567"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic59.jpeg",
+          "hash": "13127174129914059127"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic6.jpeg",
+          "hash": "11803823053354007293"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic60.jpeg",
+          "hash": "12029859086015574169"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic61.jpeg",
+          "hash": "2022733625198318422"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic62.jpeg",
+          "hash": "3740670377851207700"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic63.jpeg",
+          "hash": "8408638101215681229"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic64.jpeg",
+          "hash": "9359295434195025581"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic65.jpeg",
+          "hash": "10938332167133053573"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic66.jpeg",
+          "hash": "6955621136085286997"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic67.jpeg",
+          "hash": "5392813033476099806"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic68.jpeg",
+          "hash": "5853976753415455340"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic69.jpeg",
+          "hash": "5989794446578748448"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic7.jpeg",
+          "hash": "10666590010395419623"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic70.jpeg",
+          "hash": "11044025993500637803"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic71.jpeg",
+          "hash": "6333646853576331582"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic72.jpeg",
+          "hash": "13167848507468560600"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic73.jpeg",
+          "hash": "3775220266918830289"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic74.jpeg",
+          "hash": "7185916331203305337"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic75.jpeg",
+          "hash": "6756402889592770878"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic76.jpeg",
+          "hash": "14335416948897834794"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic77.jpeg",
+          "hash": "12779529594329565051"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic78.jpeg",
+          "hash": "18086864139762461174"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic79.jpeg",
+          "hash": "5750476006329526588"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic8.jpeg",
+          "hash": "10210812336017179747"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic80.jpeg",
+          "hash": "5080166245633302663"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic81.jpeg",
+          "hash": "12786231891581178985"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic82.jpeg",
+          "hash": "17988898990604032832"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic83.jpeg",
+          "hash": "521886525848024898"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic84.jpeg",
+          "hash": "1227809441661118159"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic85.jpeg",
+          "hash": "12260656771416038834"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic86.jpeg",
+          "hash": "14383935486624501951"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic87.jpeg",
+          "hash": "3711944561904519050"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic88.jpeg",
+          "hash": "3258365005880687694"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic89.jpeg",
+          "hash": "12904667531501207866"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic9.jpeg",
+          "hash": "8525577697489076591"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic90.jpeg",
+          "hash": "4072579410279104944"
+        },
+        {
+          "file": "apps/frontend/src/assets/images/pic91.jpeg",
+          "hash": "18007905141116065363"
+        },
+        {
+          "file": "apps/frontend/src/main.tsx",
+          "hash": "606318086921529151",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/frontend/src/styles.css",
+          "hash": "11563637508157489547"
+        },
+        {
+          "file": "apps/frontend/tsconfig.app.json",
+          "hash": "17842097588564249090"
+        },
+        {
+          "file": "apps/frontend/tsconfig.json",
+          "hash": "15934151127142935189"
+        },
+        {
+          "file": "apps/frontend/vite.config.ts",
+          "hash": "17793049820599669504",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "12795984587019439482"
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "10125403345183489799",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/auth/auth.controller.ts",
+          "hash": "449039408197403474",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/auth/auth.module.ts",
+          "hash": "18381582691950858590",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/auth/auth.service.ts",
+          "hash": "6650697762336793111",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose",
+            "npm:bcrypt"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/auth/schemas/password-reset-token.schema.ts",
+          "hash": "17587093987149144462",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dates.controller.spec.ts",
+          "hash": "15828600842488383289",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dates.controller.ts",
+          "hash": "4490948707527441420",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dates.module.ts",
+          "hash": "9382123876623952982",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dates.service.spec.ts",
+          "hash": "3330612267313605157",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dates.service.ts",
+          "hash": "13894136766948719635",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/dto/create-date.dto.ts",
+          "hash": "389939233155200368",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/dates/schemas/date.schema.ts",
+          "hash": "12128874682823265771",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/favorites/favorites.controller.ts",
+          "hash": "11663068308224343790",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/favorites/favorites.module.ts",
+          "hash": "2004809583239790077",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/favorites/favorites.service.ts",
+          "hash": "4666137821022496057",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/favorites/schemas/favorite.schema.ts",
+          "hash": "11241532865711866114",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/dto/create-review.dto.ts",
+          "hash": "15219118086742864450",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/dto/list-reviews.dto.ts",
+          "hash": "8939841206781818649",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/reviews.controller.ts",
+          "hash": "1189400226041027606",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/reviews.module.ts",
+          "hash": "655060133009879549",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/reviews.service.ts",
+          "hash": "6893319342985017667",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/reviews/schemas/review.schema.ts",
+          "hash": "11020271419197465683",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/dto/create-user.dto.ts",
+          "hash": "1613095991509415860",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/dto/update-user-role.dto.ts",
+          "hash": "5598064012445381558",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/schemas/user.schema.ts",
+          "hash": "4152796264927260819",
+          "deps": [
+            "npm:@nestjs/mongoose",
+            "npm:mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/users.controller.ts",
+          "hash": "4808306237899241429",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/users.module.ts",
+          "hash": "15944488384514130213",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/users/users.service.ts",
+          "hash": "12485700236325924514",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/mongoose",
+            "npm:mongoose",
+            "npm:bcrypt"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "13025360514809529116",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "11743560192428490434"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "16047766901761267882"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "15315877637556003670"
+}

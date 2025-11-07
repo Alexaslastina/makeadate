@@ -1,0 +1,53 @@
+> vite build
+
+[36mvite v7.1.12 [32mbuilding for production...[36m[39m
+[2K[1Gtransforming (1) [2msrc/main.tsx[22m[2K[1Gtransforming (6) [2msrc/styles.css[22m[2K[1Gtransforming (17) [2m../../node_modules/react-router/dist/index.js[22[2K[1Gtransforming (38) [2msrc/app/components/Footer.module.css[22m[2K[1Gtransforming (83) [2msrc/app/pages/FAQ.module.css[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (215) [2m../../node_modules/react-dom/cjs/react-dom.produ[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (226) [2m../../node_modules/react-dom/client.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (303) [2m../../node_modules/dom-helpers/esm/contains.js[[2K[1Gtransforming (357) [2m../../node_modules/@restart/ui/esm/useClickOutsi[2K[1Gtransforming (398) [2m../../node_modules/@popperjs/core/lib/dom-utils/[2K[1G[32m✓[39m 440 modules transformed.
+[2K[1Grendering chunks (1)...[2K[1G[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1Gcomputing gzip size (3)...[2K[1G[2m../../dist/frontend/[22m[32mindex.html                    [39m[1m[2m    0.46 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic83-BC9zu6Bx.jpeg    [39m[1m[2m   36.33 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic81-BplHc5Kd.jpeg    [39m[1m[2m   37.72 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic65-CFwjH5Js.jpeg    [39m[1m[2m   41.71 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic85-CynT21X5.jpeg    [39m[1m[2m   42.35 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic84-DP5hSWLg.jpeg    [39m[1m[2m   43.75 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic16-GQvlqPa5.jpeg    [39m[1m[2m   44.89 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic63-DNmsZbzX.jpeg    [39m[1m[2m   50.26 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic21-BBbcTeSS.jpeg    [39m[1m[2m   54.26 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic77-B7B5sKdQ.jpeg    [39m[1m[2m   61.22 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic14-Dr0no3jr.jpeg    [39m[1m[2m   70.85 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic88-BO_BSUtQ.jpeg    [39m[1m[2m   71.12 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic69-gDO9ZUAY.jpeg    [39m[1m[2m   78.12 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic52-_6hvHwTq.jpg     [39m[1m[2m   80.32 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic62-UwKXF44f.jpeg    [39m[1m[2m   83.68 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic86-C_kGOgHQ.jpeg    [39m[1m[2m   83.94 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic15-BH7TgHRt.jpeg    [39m[1m[2m   85.10 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic66-BVAJAgkl.jpeg    [39m[1m[2m  100.09 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic72-DYONKHc5.jpeg    [39m[1m[2m  118.00 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic8-BjBHtsuB.jpeg     [39m[1m[2m  121.04 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic38-B8HYFZey.jpeg    [39m[1m[2m  128.47 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic74-B5Hw2j1I.jpeg    [39m[1m[2m  129.47 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic71--ETCYQaL.jpeg    [39m[1m[2m  131.83 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic30-CbHVLr76.jpeg    [39m[1m[2m  136.04 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic4-CHNPF-Z7.jpeg     [39m[1m[2m  158.32 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic61-BWEy_lgz.jpeg    [39m[1m[2m  163.48 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic2-DRkDAs1v.jpeg     [39m[1m[2m  165.49 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic17-DhQh6AF6.jpeg    [39m[1m[2m  169.24 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic10-vAWkuwqA.jpeg    [39m[1m[2m  170.11 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic9-BvQdTTvu.jpeg     [39m[1m[2m  173.49 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic78-D26UpXG3.jpeg    [39m[1m[2m  173.69 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic35-DKDtxJ1I.jpeg    [39m[1m[2m  185.88 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic75--kZmRoZD.jpeg    [39m[1m[2m  186.59 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic11-DQX6fBk6.jpeg    [39m[1m[2m  191.85 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic22-BIoig9fG.jpeg    [39m[1m[2m  203.20 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic64-CtPiEXnO.jpeg    [39m[1m[2m  205.84 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic89-6gaV_v5Y.jpeg    [39m[1m[2m  206.06 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic5-BOnRZYK_.jpeg     [39m[1m[2m  213.55 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic7-DnY1m2GV.jpeg     [39m[1m[2m  259.52 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic5-S0_Jlc-C.png      [39m[1m[2m  263.97 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic76-qZytCw6H.jpeg    [39m[1m[2m  271.77 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic1001-Bxwmc9Nb.jpeg  [39m[1m[2m  358.56 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic73-DRYI2u1E.jpeg    [39m[1m[2m  368.50 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic45-BDvWuvw6.png     [39m[1m[2m1,382.44 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic40-BRtHzJdl.png     [39m[1m[2m1,771.55 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[32mpic25-DDDpBNaF.png     [39m[1m[2m2,044.15 kB[22m[1m[22m
+[2m../../dist/frontend/[22m[2massets/[22m[35mindex-BtWNrplV.css     [39m[1m[2m  245.39 kB[22m[1m[22m[2m │ gzip:  34.11 kB[22m
+[2m../../dist/frontend/[22m[2massets/[22m[36mindex-DDDDCMyl.js      [39m[1m[2m  322.00 kB[22m[1m[22m[2m │ gzip: 102.02 kB[22m
+[32m✓ built in 3.84s[39m

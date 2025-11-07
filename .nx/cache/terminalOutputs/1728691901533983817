@@ -1,0 +1,1832 @@
+[2J[3J[H6:48:13 PM - Starting compilation in watch mode...
+
+
+6:48:19 PM - Found 0 errors. Watching for file changes.
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:20 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +2398ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +11ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 106995  - [39m11/05/2025, 6:48:22 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+[1m[31m[31m[Nest] 106995  - [39m[31m11/05/2025, 6:48:22 PM [31m  ERROR[39m[31m [38;5;3m[NestApplication] [39m[31m[31mError: listen EADDRINUSE: address already in use :::3001[39m[31m[38;5;3m +3ms[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: listen EADDRINUSE: address already in use :::3001[39m[22m
+[1m[31m    at Server.setupListenHandle [as _listen2] (node:net:1940:16)[39m[22m
+[1m[31m    at listenInCluster (node:net:1997:12)[39m[22m
+[1m[31m    at Server.listen (node:net:2102:7)[39m[22m
+[1m[31m    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)[39m[22m
+[1m[31m    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30[39m[22m
+[1m[31m    at new Promise (<anonymous>)[39m[22m
+[1m[31m    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m[22m
+[1m[31m    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[2J[3J[H9:58:30 PM - File change detected. Starting incremental compilation...
+
+
+9:58:36 PM - Found 0 errors. Watching for file changes.
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +31ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +2519ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +41ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+[32m[Nest] 112769  - [39m11/05/2025, 9:58:42 PM [32m    LOG[39m [32m🚀 Application is running on: http://localhost:3001/api[39m
+[2J[3J[H10:16:53 PM - File change detected. Starting incremental compilation...
+
+
+10:16:56 PM - Found 0 errors. Watching for file changes.
+[1m[31mDebugger listening on ws://localhost:9229/8e5a0334-58da-4a89-9b4a-59b6820504ad[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 114761  - [39m11/05/2025, 10:16:58 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:16:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +29ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:16:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:16:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:16:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +1775ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +51ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +17ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 114761  - [39m11/05/2025, 10:17:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+[1m[31m[31m[Nest] 114761  - [39m[31m11/05/2025, 10:17:00 PM [31m  ERROR[39m[31m [38;5;3m[NestApplication] [39m[31m[31mError: listen EADDRINUSE: address already in use :::3001[39m[31m[38;5;3m +6ms[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: listen EADDRINUSE: address already in use :::3001[39m[22m
+[1m[31m    at Server.setupListenHandle [as _listen2] (node:net:1940:16)[39m[22m
+[1m[31m    at listenInCluster (node:net:1997:12)[39m[22m
+[1m[31m    at Server.listen (node:net:2102:7)[39m[22m
+[1m[31m    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)[39m[22m
+[1m[31m    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30[39m[22m
+[1m[31m    at new Promise (<anonymous>)[39m[22m
+[1m[31m    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m[22m
+[1m[31m    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[2J[3J[H10:40:00 PM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/users/users.controller.ts(11,42): error TS2554: Expected 1 arguments, but got 3.
+
+10:40:05 PM - Found 1 error. Watching for file changes.
+[2J[3J[H10:40:05 PM - File change detected. Starting incremental compilation...
+
+
+10:40:11 PM - Found 0 errors. Watching for file changes.
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +79ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +2494ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +14ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+[32m[Nest] 118824  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [32m🚀 Application is running on: http://localhost:3001/api[39m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:49:29 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45309243[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45309621[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45309345[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:49:29 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45310080[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45309621[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45309345[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:49:50 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45328299[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45328307[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45328269[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:49:59 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45336248[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45336675[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45336716[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:50:20 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45354640[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45354474[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45354398[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:50:25 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45360002[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45359780[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45359749[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:50:25 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45360002[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45359780[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45359749[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:50:33 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m[90m    at runNextTicks (node:internal/process/task_queues:65:5)[39m[31m[39m[22m
+[1m[31m[90m    at processTimers (node:internal/timers:540:9)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45368446[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45368206[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45368505[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 118824  - [39m[31m11/06/2025, 3:50:55 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31mMongoServerSelectionError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m[39m[22m
+[1m[31m    at Topology.selectServer [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/sdam/topology.ts:635:30[90m)[39m[31m[39m[22m
+[1m[31m    at tryOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:202:16[90m)[39m[31m[39m[22m
+[1m[31m    at executeOperation [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/operations/execute_operation.ts:119:12[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor._initialize [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/find_cursor.ts:92:22[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.cursorInit [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:949:21[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.fetchBatch [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:987:7[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.next [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:608:9[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.[Symbol.asyncIterator] [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:502:26[90m)[39m[31m[39m[22m
+[1m[31m    at FindCursor.toArray [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cursor/abstract_cursor.ts:696:22[90m)[39m[31m[39m[22m
+[1m[31m    at model.Query._find [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongoose[24m/lib/query.js:2430:14[90m)[39m[31m {[39m[22m
+[1m[31m  errorLabelSet: Set(0) {},[39m[22m
+[1m[31m  reason: TopologyDescription {[39m[22m
+[1m[31m    type: [32m'ReplicaSetNoPrimary'[39m[31m,[39m[22m
+[1m[31m    servers: Map(3) {[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-02.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45386565[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-00.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45386467[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      },[39m[22m
+[1m[31m      [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m => ServerDescription {[39m[22m
+[1m[31m        address: [32m'ac-wa0jfvq-shard-00-01.7rfpv3s.mongodb.net:27017'[39m[31m,[39m[22m
+[1m[31m        type: [32m'Unknown'[39m[31m,[39m[22m
+[1m[31m        hosts: [],[39m[22m
+[1m[31m        passives: [],[39m[22m
+[1m[31m        arbiters: [],[39m[22m
+[1m[31m        tags: {},[39m[22m
+[1m[31m        minWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        maxWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m        roundTripTime: [33m-1[39m[31m,[39m[22m
+[1m[31m        minRoundTripTime: [33m0[39m[31m,[39m[22m
+[1m[31m        lastUpdateTime: [33m45386453[39m[31m,[39m[22m
+[1m[31m        lastWriteDate: [33m0[39m[31m,[39m[22m
+[1m[31m        error: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m        [39m[22m
+[1m[31m            at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m        [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m        [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m        [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m        [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m          errorLabelSet: Set(1) {[39m[22m
+[1m[31m            [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m          },[39m[22m
+[1m[31m          beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m          [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m          ] {[39m[22m
+[1m[31m            library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m            reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m            code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m          }[39m[22m
+[1m[31m        },[39m[22m
+[1m[31m        topologyVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        setName: [1mnull[22m[1m,[39m[22m
+[1m[31m        setVersion: [1mnull[22m[1m,[39m[22m
+[1m[31m        electionId: [1mnull[22m[1m,[39m[22m
+[1m[31m        logicalSessionTimeoutMinutes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxMessageSizeBytes: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxWriteBatchSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        maxBsonObjectSize: [1mnull[22m[1m,[39m[22m
+[1m[31m        primary: [1mnull[22m[1m,[39m[22m
+[1m[31m        me: [1mnull[22m[1m,[39m[22m
+[1m[31m        [32m'$clusterTime'[39m[31m: [1mnull[22m[1m,[39m[22m
+[1m[31m        iscryptd: [33mfalse[39m[31m[39m[22m
+[1m[31m      }[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    stale: [33mfalse[39m[31m,[39m[22m
+[1m[31m    compatible: [33mtrue[39m[31m,[39m[22m
+[1m[31m    heartbeatFrequencyMS: [33m10000[39m[31m,[39m[22m
+[1m[31m    localThresholdMS: [33m15[39m[31m,[39m[22m
+[1m[31m    setName: [32m'atlas-ktzrag-shard-0'[39m[31m,[39m[22m
+[1m[31m    maxElectionId: new ObjectId([32m'7fffffff000000000000008c'[39m[31m),[39m[22m
+[1m[31m    maxSetVersion: [33m16[39m[31m,[39m[22m
+[1m[31m    commonWireVersion: [33m0[39m[31m,[39m[22m
+[1m[31m    logicalSessionTimeoutMinutes: [1mnull[22m[1m[39m[22m
+[1m[31m  },[39m[22m
+[1m[31m  code: [90mundefined[39m[31m,[39m[22m
+[1m[31m  [cause]: MongoNetworkError: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m  [39m[22m
+[1m[31m      at TLSSocket.<anonymous> [90m(/home/Projects/makeadate/[39m[31mnode_modules/[4mmongodb[24m/src/cmap/connect.ts:395:16[90m)[39m[31m[39m[22m
+[1m[31m  [90m    at Object.onceWrapper (node:events:623:26)[39m[31m[39m[22m
+[1m[31m  [90m    at TLSSocket.emit (node:events:508:28)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m[31m[39m[22m
+[1m[31m  [90m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m[31m[39m[22m
+[1m[31m  [90m    at processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[31m {[39m[22m
+[1m[31m    errorLabelSet: Set(1) {[39m[22m
+[1m[31m      [32m'ResetPool'[39m[31m[39m[22m
+[1m[31m    },[39m[22m
+[1m[31m    beforeHandshake: [33mfalse[39m[31m,[39m[22m
+[1m[31m    [cause]: [Error: C0DC6C0448760000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:916:SSL alert number 80[39m[22m
+[1m[31m    ] {[39m[22m
+[1m[31m      library: [32m'SSL routines'[39m[31m,[39m[22m
+[1m[31m      reason: [32m'tlsv1 alert internal error'[39m[31m,[39m[22m
+[1m[31m      code: [32m'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'[39m[31m[39m[22m
+[1m[31m    }[39m[22m
+[1m[31m  }[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m

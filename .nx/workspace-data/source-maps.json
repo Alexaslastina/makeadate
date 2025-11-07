@@ -1,0 +1,454 @@
+{
+  "apps/frontend": {
+    "root": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.continuous": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.deprecated": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.continuous": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.continuous": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/frontend/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/api": {
+    "root": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.watch": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

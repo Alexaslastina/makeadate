@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx serve frontend",
+    "startTime": "2025-11-07T01:50:04.627Z",
+    "endTime": "2025-11-07T04:46:29.395Z",
+    "inner": false
+  },
+  "tasks": []
+}

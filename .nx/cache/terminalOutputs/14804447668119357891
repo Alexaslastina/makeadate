@@ -1,0 +1,106 @@
+[2J[3J[H10:22:52 PM - Starting compilation in watch mode...
+
+
+10:22:57 PM - Found 0 errors. Watching for file changes.
+[1m[31mDebugger listening on ws://localhost:9229/3ffde805-f1ac-44a5-80d5-a24cdcaf7669[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 115852  - [39m11/05/2025, 10:22:58 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:22:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:22:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:22:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:22:58 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +1807ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +9ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 115852  - [39m11/05/2025, 10:23:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[1m[31m[31m[Nest] 115852  - [39m[31m11/05/2025, 10:23:00 PM [31m  ERROR[39m[31m [38;5;3m[NestApplication] [39m[31m[31mError: listen EADDRINUSE: address already in use :::3001[39m[31m[38;5;3m +2ms[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: listen EADDRINUSE: address already in use :::3001[39m[22m
+[1m[31m    at Server.setupListenHandle [as _listen2] (node:net:1940:16)[39m[22m
+[1m[31m    at listenInCluster (node:net:1997:12)[39m[22m
+[1m[31m    at Server.listen (node:net:2102:7)[39m[22m
+[1m[31m    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)[39m[22m
+[1m[31m    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30[39m[22m
+[1m[31m    at new Promise (<anonymous>)[39m[22m
+[1m[31m    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m[22m
+[1m[31m    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[2J[3J[H10:40:00 PM - File change detected. Starting incremental compilation...
+
+apps/api/src/app/users/users.controller.ts(11,42): error TS2554: Expected 1 arguments, but got 3.
+
+10:40:05 PM - Found 1 error. Watching for file changes.
+[2J[3J[H10:40:05 PM - File change detected. Starting incremental compilation...
+
+
+10:40:11 PM - Found 0 errors. Watching for file changes.
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +83ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +2487ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReviewsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/dates}:[39m[38;5;3m +16ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, GET} route[39m[38;5;3m +14ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/seed, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReviewsController {/api/dates/:dateId/reviews}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/summary, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/dates/:dateId/reviews/:reviewId, DELETE} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:email, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 118835  - [39m11/05/2025, 10:40:17 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[1m[31m[31m[Nest] 118835  - [39m[31m11/05/2025, 10:40:17 PM [31m  ERROR[39m[31m [38;5;3m[NestApplication] [39m[31m[31mError: listen EADDRINUSE: address already in use :::3001[39m[31m[38;5;3m +2ms[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: listen EADDRINUSE: address already in use :::3001[39m[22m
+[1m[31m    at Server.setupListenHandle [as _listen2] (node:net:1940:16)[39m[22m
+[1m[31m    at listenInCluster (node:net:1997:12)[39m[22m
+[1m[31m    at Server.listen (node:net:2102:7)[39m[22m
+[1m[31m    at ExpressAdapter.listen (/home/Projects/makeadate/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)[39m[22m
+[1m[31m    at /home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:188:30[39m[22m
+[1m[31m    at new Promise (<anonymous>)[39m[22m
+[1m[31m    at NestApplication.listen (/home/Projects/makeadate/node_modules/@nestjs/core/nest-application.js:178:16)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m[22m
+[1m[31m    at bootstrap (/home/Projects/makeadate/apps/api/src/main.ts:14:3)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
