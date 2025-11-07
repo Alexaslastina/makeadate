@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project uses GitHub Actions for Continuous Integration and Continuous Deployment.
+This project uses GitHub Actions for Continuous Integration and Continuous Deployment, following best practices from modern React deployments.
+
+> **Quick Start:** See [QUICK_START.md](./QUICK_START.md) for immediate setup  
+> **Detailed Guide:** See [WORKFLOWS.md](./WORKFLOWS.md) for complete documentation
 
 ## Workflows
 
@@ -11,12 +14,17 @@ This project uses GitHub Actions for Continuous Integration and Continuous Deplo
 **Trigger:** Push or PR to `main`, `master`, or `develop` branches
 
 **Jobs:**
-- **Build and Test**
-  - Runs on Node.js 18.x and 20.x
-  - Installs dependencies
-  - Builds the frontend application
-  - Uploads build artifacts
-  - Reports build size and largest files
+- **Code Quality**
+  - TypeScript type checking
+  - Build verification
+  
+- **Tests**
+  - Unit tests execution
+  - Runs after quality checks
+  
+- **Security Audit**
+  - npm vulnerability scanning
+  - Reports moderate+ severity issues
 
 **Badge:** 
 ```markdown
@@ -28,14 +36,19 @@ This project uses GitHub Actions for Continuous Integration and Continuous Deplo
 **Trigger:** Push to `main` or `master` branch, or manual dispatch
 
 **Jobs:**
-- **Build**
-  - Builds the application for production
-  - Configures GitHub Pages
-  - Uploads artifacts for deployment
+- **Build Frontend**
+  - Builds for production with optimizations
+  - Analyzes build size
+  - Verifies output structure
+  - Uploads build artifact
   
-- **Deploy**
-  - Deploys to GitHub Pages
-  - Available at: https://alexaslastina.github.io/makeadate/
+- **Deploy to Pages**
+  - Downloads build artifact
+  - Configures GitHub Pages
+  - Deploys to live site
+  - Reports deployment URL
+
+**Live Site:** https://alexaslastina.github.io/makeadate/
 
 **Badge:**
 ```markdown
@@ -48,11 +61,11 @@ This project uses GitHub Actions for Continuous Integration and Continuous Deplo
 
 **Jobs:**
 - **Validate PR**
-  - Builds the application
-  - Checks for TypeScript errors
-  - Verifies build output
-  - Analyzes bundle size
-  - Comments on PR with build information
+  - TypeScript type checking
+  - Build verification
+  - Test execution
+  - Build size analysis
+  - Automated PR comment with build status
 
 ## GitHub Pages Setup
 
