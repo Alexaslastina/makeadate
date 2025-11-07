@@ -1,0 +1,242 @@
+.checkoutMain {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 3rem 0;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.checkoutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.orderSummary,
+.paymentForm {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.orderSummary h2,
+.paymentForm h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.itemsList {
+  margin-bottom: 2rem;
+}
+
+.orderItem {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.orderItem:last-child {
+  border-bottom: none;
+}
+
+.itemImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.itemDetails h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.itemDuration {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.dateSelector {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dateSelector label {
+  font-size: 0.9rem;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.dateInput {
+  padding: 0.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+  transition: all 0.3s;
+  width: 100%;
+  max-width: 200px;
+}
+
+.dateInput:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.itemPrice {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.totalSection {
+  border-top: 2px solid #eee;
+  padding-top: 1rem;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.totalRowFinal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  border-top: 2px solid #333;
+  margin-top: 0.5rem;
+}
+
+.cardDetails {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+.payButton {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+
+.payButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.payButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.secureInfo {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.lockIcon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.successCard {
+  background: white;
+  border-radius: 15px;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 3rem auto;
+}
+
+.successIcon {
+  width: 100px;
+  height: 100px;
+  background: #27ae60;
+  color: white;
+  font-size: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+}
+
+.successCard h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.successCard p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.redirectMessage {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+@media screen and (max-width: 992px) {
+  .checkoutGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .cardDetails {
+    grid-template-columns: 1fr;
+  }
+
+  .orderItem {
+    flex-wrap: wrap;
+  }
+
+  .itemImage {
+    width: 60px;
+    height: 60px;
+  }
+}
+

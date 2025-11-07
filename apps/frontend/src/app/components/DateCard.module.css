@@ -7,6 +7,8 @@
   justify-content: center;
   position: relative;
   transition: transform 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .dateCard:hover {
@@ -34,5 +36,37 @@
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 20px;
+}
+
+.saveButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.saveButton:hover {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+.saveButton.saved {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.saveButton.saved:hover {
+  background-color: #c0392b;
 }
 

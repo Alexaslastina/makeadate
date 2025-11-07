@@ -87,14 +87,78 @@ export function Home() {
             {/* Center grid with date locations */}
             <Col lg={8}>
               <div className="grid_page">
-                <DateCard backgroundImage={pic62} title="Rooftop date" link="/rooftop" />
-                <DateCard backgroundImage={pic63} title="Amusement park" link="/amusement" />
-                <DateCard backgroundImage={pic64} title="Dance lesson" link="/" />
-                <DateCard backgroundImage={pic65} title="Yacht Sailing" link="/" />
-                <DateCard backgroundImage={pic66} title="Ice skating" link="/" />
-                <DateCard backgroundImage={pic68} title="Horse riding tour" link="/" />
-                <DateCard backgroundImage={pic10} title="Weekend in Paris" link="/" />
-                <DateCard backgroundImage={pic71} title="Hot Air Balloon Ride" link="/" />
+                <DateCard 
+                  id="rooftop" 
+                  backgroundImage={pic62} 
+                  title="Rooftop date" 
+                  link="/rooftop" 
+                  price="$120 per couple"
+                  duration="120 minutes"
+                  rating={4.6}
+                />
+                <DateCard 
+                  id="amusement" 
+                  backgroundImage={pic63} 
+                  title="Amusement park" 
+                  link="/amusement" 
+                  price="$150 per couple"
+                  duration="240 minutes"
+                  rating={4.8}
+                />
+                <DateCard 
+                  id="dance-lesson" 
+                  backgroundImage={pic64} 
+                  title="Dance lesson" 
+                  link="/dance-lesson" 
+                  price="$80 per couple"
+                  duration="90 minutes"
+                  rating={4.5}
+                />
+                <DateCard 
+                  id="yacht-sailing" 
+                  backgroundImage={pic65} 
+                  title="Yacht Sailing" 
+                  link="/yacht-sailing" 
+                  price="$300 per couple"
+                  duration="180 minutes"
+                  rating={4.9}
+                />
+                <DateCard 
+                  id="ice-skating" 
+                  backgroundImage={pic66} 
+                  title="Ice skating" 
+                  link="/ice-skating" 
+                  price="$60 per couple"
+                  duration="120 minutes"
+                  rating={4.4}
+                />
+                <DateCard 
+                  id="horse-riding" 
+                  backgroundImage={pic68} 
+                  title="Horse riding tour" 
+                  link="/horse-riding" 
+                  price="$180 per couple"
+                  duration="150 minutes"
+                  rating={4.7}
+                />
+                <DateCard 
+                  id="weekend-paris" 
+                  backgroundImage={pic10} 
+                  title="Weekend in Paris" 
+                  link="/weekend-paris" 
+                  price="$800 per couple"
+                  duration="2880 minutes"
+                  rating={5.0}
+                />
+                <DateCard 
+                  id="hot-air-balloon" 
+                  backgroundImage={pic71} 
+                  title="Hot Air Balloon Ride" 
+                  link="/hot-air-balloon" 
+                  price="$200 per couple"
+                  duration="180 minutes"
+                  rating={4.7}
+                />
               </div>
             </Col>
 

@@ -23,6 +23,60 @@ header {
   margin-left: 20px;
 }
 
+.registerButton {
+  padding: 0 24px;
+  font-size: 1.2em;
+  color: grey;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logoutButton {
+  padding: 0 24px;
+  font-size: 1.2em;
+  color: grey;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.adminLink {
+  padding: 0 24px;
+  font-size: 1.2em;
+  color: grey;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.favoritesLink {
+  padding: 0 24px;
+  font-size: 1.2em;
+  color: #e74c3c;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 600;
+  position: relative;
+}
+
+.favoritesLink:hover {
+  color: #c0392b;
+}
+
+.badge {
+  background: #e74c3c;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 0.7em;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
 .burger {
   cursor: pointer;
   text-align: right;

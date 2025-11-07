@@ -33,9 +33,3 @@ body {
   gap: 15px;
   margin: 20px 0;
 }
-
-@media screen and (min-width: 768px) {
-  .grid_page {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}

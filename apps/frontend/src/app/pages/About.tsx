@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import styles from './About.module.css';
-import meImage from '../../assets/images/me.jpg';
+import pic1001 from '../../assets/images/pic1001.jpeg';
 import pic78 from '../../assets/images/pic78.jpeg';
 import pic77 from '../../assets/images/pic77.jpeg';
 import pic76 from '../../assets/images/pic76.jpeg';
@@ -20,7 +20,7 @@ export function About() {
               <Col lg={4}>
                 <img
                   className={`${styles.founderImage} float-lg-start`}
-                  src={meImage}
+                  src={pic1001}
                   alt="Alexandra Slastina"
                 />
               </Col>

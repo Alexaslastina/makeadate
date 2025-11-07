@@ -1,0 +1,235 @@
+.adminMain {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  padding: 2rem 0;
+}
+
+.adminHeader {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.adminHeader h1 {
+  font-size: 2.5rem;
+  color: #1e3c72;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.adminHeader p {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Statistics Cards */
+.statCard {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+  margin-bottom: 1rem;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.statCard .card-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.statIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.statValue {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e3c72;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 1rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table Card */
+.tableCard {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+.tableCard .card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px 15px 0 0 !important;
+  padding: 1.5rem;
+  border: none;
+}
+
+.tableCard .card-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tableCard .card-body {
+  padding: 0;
+}
+
+/* Users Table */
+.usersTable {
+  margin: 0;
+}
+
+.usersTable thead {
+  background: #f8f9fa;
+}
+
+.usersTable thead th {
+  padding: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #dee2e6;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.usersTable tbody tr {
+  transition: background-color 0.2s;
+}
+
+.usersTable tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.usersTable tbody td {
+  padding: 1rem 1.25rem;
+  vertical-align: middle;
+  color: #333;
+}
+
+.usersTable tbody td:first-child {
+  font-weight: 600;
+  color: #667eea;
+}
+
+/* Badges */
+.usersTable .badge {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.usersTable button {
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.usersTable button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .adminHeader h1 {
+    font-size: 1.8rem;
+  }
+
+  .statCard {
+    margin-bottom: 1rem;
+  }
+
+  .statValue {
+    font-size: 2rem;
+  }
+
+  .usersTable {
+    font-size: 0.9rem;
+  }
+
+  .usersTable thead th,
+  .usersTable tbody td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .usersTable button {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+/* Modal Styles */
+:global(.modal-content) {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+:global(.modal-header) {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px 15px 0 0;
+  border-bottom: none;
+}
+
+:global(.modal-header .btn-close) {
+  filter: brightness(0) invert(1);
+}
+
+:global(.modal-title) {
+  font-weight: 600;
+}
+
+:global(.modal-body) {
+  padding: 2rem;
+}
+
+:global(.modal-footer) {
+  border-top: 1px solid #dee2e6;
+  padding: 1rem 2rem;
+}
+
+/* Empty State */
+.emptyState {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+}
+
+.emptyState h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}

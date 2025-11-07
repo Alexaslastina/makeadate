@@ -1,49 +1,230 @@
 .amusementMain {
-  background: rgb(230, 248, 189);
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFD93D 100%);
   width: 100%;
   min-height: 100vh;
   padding: 2rem 0;
 }
 
-.amusementMain h1,
-.amusementMain h2 {
+.amusementMain h1 {
   font-family: 'Dancing Script', cursive;
   text-align: center;
-  color: slategrey;
+  color: #fff;
+  font-size: 3rem;
 }
 
-.amusementMain p {
-  font-size: x-large;
+.amusementMain h2,
+.amusementMain h3,
+.amusementMain h4 {
+  font-family: 'Dancing Script', cursive;
+  color: #FF6B6B;
 }
 
-.gridGallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
-  margin-bottom: 2rem;
-}
-
-.gridGallery img {
+.mainImageContainer {
   width: 100%;
-  height: 200px;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border: 4px solid white;
+}
+
+.shortDesc {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shortDesc h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.shortDescText {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.tag {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
 }
 
 .contentBox {
-  border: 4px solid darkgrey;
-  padding: 2rem;
   background: white;
-  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contentBox h3 {
+  margin-bottom: 1.5rem;
+}
+
+.contentBox p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.highlights {
+  background: #FFF4E6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.highlights h4 {
+  color: #FF6B6B;
+  margin-bottom: 1rem;
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlights li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.tips {
+  background: #fff8e1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffc107;
+  margin: 2rem 0;
+}
+
+.tips h4 {
+  color: #f57c00;
+  margin-bottom: 1rem;
+}
+
+.tips p {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+}
+
+.tips strong {
+  color: #f57c00;
+}
+
+.infoPanel {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 20px;
+}
+
+.infoPanel h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #FF6B6B;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.infoLabel {
+  font-weight: 600;
+  color: #666;
+}
+
+.infoValue {
+  color: #333;
+  text-align: right;
+}
+
+.averageRating {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin: 1.5rem 0;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
+
+.averageRating h4 {
+  color: #FF6B6B;
+  margin-bottom: 0.5rem;
+}
+
+.ratingStars {
+  font-size: 2rem;
+  color: #ffc107;
+  margin: 0.5rem 0;
+}
+
+.averageRating p {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.bookButton {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFD93D 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 1rem;
+}
+
+.bookButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+@media screen and (max-width: 992px) {
+  .infoPanel {
+    position: static;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .gridGallery {
-    grid-template-columns: repeat(1, 1fr);
+  .amusementMain h1 {
+    font-size: 2rem;
   }
-
-  .amusementMain p {
-    font-size: large;
+  
+  .shortDescText {
+    font-size: 1rem;
+  }
+  
+  .contentBox p {
+    font-size: 1rem;
+  }
+  
+  .tags {
+    justify-content: center;
   }
 }
-

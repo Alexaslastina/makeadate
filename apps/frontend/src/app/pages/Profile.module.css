@@ -1,0 +1,415 @@
+.profileMain {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 3rem 0;
+}
+
+.profileHeader {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.userInfo h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.email {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.adminButton,
+.logoutButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.adminButton {
+  background: #007bff;
+  color: white;
+}
+
+.adminButton:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.logoutButton {
+  background: #dc3545;
+  color: white;
+}
+
+.logoutButton:hover {
+  background: #c82333;
+  transform: translateY(-2px);
+}
+
+.ordersSection {
+  margin-top: 2rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.emptyIcon {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.emptyState h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.emptyState p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.browseButton {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #667eea;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.browseButton:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+  color: white;
+}
+
+.orderCard {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.orderCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 1.5rem;
+}
+
+.orderHeader h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.orderDate {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.statusBadge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.orderItems {
+  margin-bottom: 1.5rem;
+}
+
+.orderItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.itemImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemInfo h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.itemInfo p {
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.reservationDate {
+  color: #667eea !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.itemPrice {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.orderFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.orderTotal {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.totalAmount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.viewReceiptButton {
+  padding: 0.6rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.viewReceiptButton:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+/* Receipt Styles */
+.receiptContainer {
+  margin-top: 2rem;
+}
+
+.receiptCard {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.receiptHeader {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #667eea;
+  margin-bottom: 2rem;
+}
+
+.receiptHeader h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.receiptDate {
+  color: #666;
+  font-size: 1rem;
+}
+
+.receiptSection {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.receiptSection h3 {
+  font-size: 1.3rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.receiptRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  color: #333;
+}
+
+.receiptItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.receiptItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.receiptItemDuration {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.receiptItemDate {
+  color: #667eea;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.receiptTotal {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.receiptRowFinal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: 2px solid #667eea;
+  font-size: 1.3rem;
+  color: #667eea;
+}
+
+.receiptFooter {
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 2px solid #eee;
+}
+
+.receiptFooter p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.receiptNote {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #999;
+}
+
+.printButton {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.printButton:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .profileHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .userInfo {
+    flex-direction: column;
+  }
+
+  .actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .adminButton,
+  .logoutButton {
+    width: 100%;
+  }
+
+  .orderFooter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .receiptRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

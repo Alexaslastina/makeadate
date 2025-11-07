@@ -1,0 +1,258 @@
+.favoritesMain {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 3rem 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #e74c3c;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.emptyIcon {
+  font-size: 5rem;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.emptyState h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.emptyState p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.browseButton {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #e74c3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.browseButton:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+  color: white;
+}
+
+.favoriteCard {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.favoriteCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.removeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeButton:hover {
+  background: #e74c3c;
+  color: white;
+  transform: scale(1.1);
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
+.cardContent h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.duration {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.ratingText {
+  color: #666;
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+}
+
+.cardActions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.viewButton {
+  flex: 1;
+  text-align: center;
+  padding: 0.6rem;
+  background: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s;
+  border: 1px solid #dee2e6;
+}
+
+.viewButton:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.buyNowButton {
+  flex: 1;
+  padding: 0.6rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.buyNowButton:hover {
+  background: #218838;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(40, 167, 69, 0.3);
+}
+
+.checkoutSection {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalBox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.totalLabel {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.totalAmount {
+  font-size: 2rem;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.checkoutButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.checkoutButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .checkoutSection {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .checkoutButton {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,78 @@
+.reviewList {
+  margin-top: 3rem;
+}
+
+.reviewList h3 {
+  color: #495057;
+  margin-bottom: 1.5rem;
+}
+
+.reviews {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.reviewCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.reviewAuthor {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewAuthor strong {
+  color: #212529;
+  font-size: 1.1rem;
+}
+
+.reviewDate {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.reviewRating {
+  font-size: 1.3rem;
+}
+
+.star {
+  color: #ddd;
+  margin: 0 0.1rem;
+}
+
+.starFilled {
+  color: #ffc107;
+  margin: 0 0.1rem;
+}
+
+.reviewComment {
+  color: #495057;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.noReviews {
+  background: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  color: #6c757d;
+  margin-top: 2rem;
+}
+
+.noReviews p {
+  margin: 0;
+}
+

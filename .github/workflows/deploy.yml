@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 🚀 Deploy to GitHub Pages
 
 on:
   push:
@@ -14,39 +14,76 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
+env:
+  NODE_ENV: production
+  VITE_BASE_URL: /makeadate/
+  VITE_API_BASE_URL: /makeadate/api/
+  VITE_ENVIRONMENT: production
+
 jobs:
   build:
-    name: Build
+    name: 🏗️ Build for Production
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
-      - name: Setup Node.js
+      - name: 📦 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           cache: 'npm'
       
-      - name: Setup Pages
+      - name: 🔧 Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Install dependencies
+      - name: 📚 Install dependencies
         run: npm ci
       
-      - name: Build frontend
-        run: npx nx build frontend
+      - name: 🏗️ Build frontend
+        run: npx nx build frontend --configuration=production
         env:
           NODE_ENV: production
+          VITE_BASE_URL: ${{ env.VITE_BASE_URL }}
+          VITE_API_BASE_URL: ${{ env.VITE_API_BASE_URL }}
+          VITE_ENVIRONMENT: ${{ env.VITE_ENVIRONMENT }}
       
-      - name: Upload artifact
+      - name: 📊 Build size analysis
+        run: |
+          echo "=== Build Size Analysis ==="
+          echo ""
+          echo "Total build size:"
+          du -sh dist/apps/frontend || du -sh dist/frontend
+          echo ""
+          echo "Top 10 largest files:"
+          find dist/apps/frontend -type f -exec du -h {} + 2>/dev/null | sort -rh | head -10 || \
+          find dist/frontend -type f -exec du -h {} + 2>/dev/null | sort -rh | head -10
+          echo ""
+          echo "Asset breakdown:"
+          echo "JavaScript:"
+          find dist -name "*.js" -exec du -ch {} + | tail -1 || echo "No JS files"
+          echo "CSS:"
+          find dist -name "*.css" -exec du -ch {} + | tail -1 || echo "No CSS files"
+          echo "Images:"
+          find dist -name "*.jpg" -o -name "*.png" -o -name "*.svg" -o -name "*.jpeg" | xargs du -ch 2>/dev/null | tail -1 || echo "No images"
+      
+      - name: 📦 Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/frontend
+      
+      - name: 💾 Upload build for verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build
+          path: ./dist/frontend
+          retention-days: 7
 
   deploy:
-    name: Deploy
+    name: 🚀 Deploy to Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -54,7 +91,23 @@ jobs:
     needs: build
     
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      
+      - name: ✅ Deployment verification
+        run: |
+          echo "✅ Deployment successful!"
+          echo "🌐 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📅 Deployed at: $(date)"
+      
+      - name: 📢 Create deployment summary
+        run: |
+          echo "# 🚀 Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ **Status**: Successful" >> $GITHUB_STEP_SUMMARY
+          echo "🌐 **URL**: ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "📅 **Deployed**: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "🔖 **Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "👤 **Author**: ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
 
