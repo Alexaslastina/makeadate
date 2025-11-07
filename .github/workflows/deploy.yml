@@ -35,7 +35,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-          cache: 'npm'
       
       - name: 🔧 Setup Pages
         if: github.actor != 'nektos/act'
@@ -43,19 +42,42 @@ jobs:
       
       - name: 📚 Install dependencies
         run: |
-          npm ci
-          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
-          # Verify Nx is installed
-          npx nx --version
-          echo "✅ Nx is available"
+          if [ -f package-lock.json ]; then
+            echo "📦 Running npm ci..."
+            npm ci
+          else
+            echo "📦 Running npm install..."
+            npm install
+          fi
+          echo "✅ Dependencies installed successfully"
+      
+      - name: 🔍 Verify Nx installation
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          if [ -d "node_modules" ]; then
+            echo "✅ node_modules directory exists"
+          else
+            echo "❌ node_modules directory not found!"
+            exit 1
+          fi
+          if [ -f "node_modules/.bin/nx" ]; then
+            echo "✅ Nx binary found"
+            npx nx --version
+          else
+            echo "❌ Nx not found in node_modules!"
+            exit 1
+          fi
       
       - name: 🏗️ Build frontend
-        run: npx nx run frontend:build
+        run: npx nx build frontend --configuration=production
         env:
           NODE_ENV: production
-          VITE_BASE_URL: ${{ env.VITE_BASE_URL }}
-          VITE_API_BASE_URL: ${{ env.VITE_API_BASE_URL }}
-          VITE_ENVIRONMENT: ${{ env.VITE_ENVIRONMENT }}
+          VITE_BASE_URL: /makeadate/
+          VITE_API_BASE_URL: /makeadate/api/
+          VITE_ENVIRONMENT: production
+          GITHUB_PAGES: true
       
       - name: 📊 Build size analysis
         run: |
