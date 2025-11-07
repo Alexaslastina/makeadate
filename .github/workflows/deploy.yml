@@ -44,8 +44,10 @@ jobs:
       - name: 📚 Install dependencies
         run: |
           npm ci
+          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
           # Verify Nx is installed
           npx nx --version
+          echo "✅ Nx is available"
       
       - name: 🏗️ Build frontend
         run: npx nx build frontend --configuration=production

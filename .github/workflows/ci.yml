@@ -30,8 +30,10 @@ jobs:
       - name: 📚 Install dependencies
         run: |
           npm ci
+          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
           # Verify Nx is installed
           npx nx --version
+          echo "✅ Nx is available"
       
       - name: 🔍 Run ESLint
         run: npx nx run-many --target=lint --all --parallel=3 || echo "No lint targets configured"
@@ -64,8 +66,10 @@ jobs:
       - name: 📚 Install dependencies
         run: |
           npm ci
+          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
           # Verify Nx is installed
           npx nx --version
+          echo "✅ Nx is available"
       
       - name: 🧪 Run tests
         run: npx nx run-many --target=test --all --parallel=3 --coverage || echo "No test targets configured"
@@ -104,8 +108,10 @@ jobs:
       - name: 📚 Install dependencies
         run: |
           npm ci
+          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
           # Verify Nx is installed
           npx nx --version
+          echo "✅ Nx is available"
       
       - name: 🏗️ Build frontend
         run: npx nx build frontend --configuration=production
@@ -158,8 +164,10 @@ jobs:
       - name: 📚 Install dependencies
         run: |
           npm ci
+          echo "✅ Installed $(npm ls --depth=0 2>/dev/null | wc -l) packages"
           # Verify Nx is installed
           npx nx --version
+          echo "✅ Nx is available"
       
       - name: 🔒 Run npm audit
         run: npm audit --audit-level=moderate
