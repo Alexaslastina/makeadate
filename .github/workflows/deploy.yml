@@ -38,6 +38,7 @@ jobs:
           cache: 'npm'
       
       - name: 🔧 Setup Pages
+        if: github.actor != 'nektos/act'
         uses: actions/configure-pages@v4
       
       - name: 📚 Install dependencies
