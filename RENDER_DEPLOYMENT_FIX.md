@@ -74,3 +74,4 @@ Ensure the following environment variables are configured in Render:
 - `PORT` - Application port (defaults to 3001)
 - Any other application-specific environment variables
 
+
