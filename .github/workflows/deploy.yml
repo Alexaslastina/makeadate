@@ -50,7 +50,7 @@ jobs:
           echo "✅ Nx is available"
       
       - name: 🏗️ Build frontend
-        run: npx nx build frontend --configuration=production
+        run: npx nx run frontend:build
         env:
           NODE_ENV: production
           VITE_BASE_URL: ${{ env.VITE_BASE_URL }}

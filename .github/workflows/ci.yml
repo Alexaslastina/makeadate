@@ -114,10 +114,10 @@ jobs:
           echo "✅ Nx is available"
       
       - name: 🏗️ Build frontend
-        run: npx nx build frontend --configuration=production
+        run: npx nx run frontend:build
       
       - name: 🏗️ Build API
-        run: npx nx build api --configuration=production
+        run: npx nx run api:build
       
       - name: 📦 Upload frontend artifacts
         if: matrix.node-version == '20.x' && github.actor != 'nektos/act'
