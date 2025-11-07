@@ -9,12 +9,23 @@ export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
   const base = isProduction ? '/makeadate/' : '/';
   
+  // Log environment variables for debugging
   console.log('Building with base URL:', base);
+  console.log('VITE_API_BASE_URL:', process.env.VITE_API_BASE_URL);
+  console.log('Mode:', mode);
   
   return {
     root: __dirname,
     base: base,
     cacheDir: '../../node_modules/.vite/frontend',
+    
+    // Explicitly define environment variables for the build
+    define: {
+      'import.meta.env.VITE_API_BASE_URL': JSON.stringify(
+        process.env.VITE_API_BASE_URL || 'http://localhost:3001/api'
+      ),
+    },
+    
     server:{
       port: 4200,
       host: 'localhost',

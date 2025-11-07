@@ -71,13 +71,22 @@ jobs:
           fi
       
       - name: 🏗️ Build frontend
-        run: npx nx build frontend --configuration=production
+        run: npx nx build frontend --prod --mode=production
         env:
           NODE_ENV: production
           VITE_BASE_URL: /makeadate/
           VITE_API_BASE_URL: https://makeadate.onrender.com/api
           VITE_ENVIRONMENT: production
           GITHUB_PAGES: true
+      
+      - name: 🔍 Verify API URL in built files
+        run: |
+          echo "=== Checking for API URL in built JavaScript files ==="
+          echo "Looking for: https://makeadate.onrender.com/api"
+          grep -r "makeadate.onrender.com" dist/frontend/ || echo "⚠️ WARNING: Render API URL not found in build!"
+          echo ""
+          echo "Looking for any API_BASE_URL or API_URL constants:"
+          grep -r "API.*URL" dist/frontend/*.js 2>/dev/null | head -5 || echo "No API URL patterns found"
       
       - name: 📊 Build size analysis
         run: |
