@@ -371,7 +371,7 @@ export function Checkout() {
 
             <div className={styles.secureInfo}>
               <span className={styles.lockIcon}>🔒</span>
-              Your payment information is secure and encrypted
+              Your payment information is not secure and encrypted
             </div>
           </div>
         </div>
